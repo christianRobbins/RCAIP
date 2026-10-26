@@ -1,0 +1,29 @@
+# Local configuration, evidence and generated artifacts
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*
+local_config*
+state/
+history/
+reference/
+outputs/
+*.ipynb
+*.xlsx
+*.xls
+*.csv
+*.zip
+*.log
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
